@@ -46,7 +46,7 @@ const cadenaPalindromo = (cadena = "") =>{
     if (!cadena) return console.info("No ingresaste ninguna palabra");
 
      cadena = cadena.toLowerCase();
-     let alReves = cadena.split("").reverse().join("")
+     let alReves = cadena.split("").reverse().join("");
 
     return ( alReves === cadena) 
        ?console.info(`La palabra ${cadena} es un palindromo, palabra al reves ${alReves}`)
